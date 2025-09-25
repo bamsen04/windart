@@ -125,6 +125,7 @@ If you’d like to add bindings or improve wrappers, feel free to **open a PR** 
 
 ## 📜 License
 
+MIT License – see [LICENSE](LICENSE)
 
 ---
 
