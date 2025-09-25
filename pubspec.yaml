@@ -1,6 +1,6 @@
 name: windart
 description: Windows API (Win32) bindings for Dart using FFI.
-version: 0.1.0
+version: 0.1.1
 repository: https://github.com/bamsen04/windart
 homepage: https://github.com/bamsen04/windart
 issue_tracker: https://github.com/bamsen04/windart/issues
