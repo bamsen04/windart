@@ -1,0 +1,33 @@
+name: windart
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.9.2
+
+# Add regular dependencies here.
+dependencies:
+  ffi: ^2.1.4
+  # path: ^1.9.0
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6
+  ffigen: ^19.1.0
+
+ffigen:
+  output: 'lib/src/generated_bindings.dart'
+
+  headers:
+    entry-points:
+      - 'C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um/windows.h'
+
+  compiler-opts:
+    - -target
+    - x86_64-pc-windows-msvc
+    - -DUNICODE
+    - -D_UNICODE
+    - -D_AMD64_
+
+  exclude-all-by-default: false
